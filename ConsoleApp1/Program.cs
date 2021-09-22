@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-//using Model;
-using Utilities;
-
+﻿
 namespace ConsoleApp1
 {
     class Program
@@ -17,11 +13,19 @@ namespace ConsoleApp1
             //ConsoleApp1.TestClass.TestQueue();
 
             // testing stack
-            ConsoleApp1.TestClass.TestStack();
-
+            //ConsoleApp1.TestClass.TestStack();
 
             //var d = new DateTime(2021,8,1).AddMonths(-1);
             //Console.WriteLine(d.ToString());
+
+            //ConsoleApp1.TestClass.TestRecord();
+
+            // ESTRUCTURA DE DATOS
+            //ConsoleApp1.TestClass.DSA();
+
+            // DELEGADOS
+            ConsoleApp1.TestClass.TestDelegates();
+            
         }
     }
 }

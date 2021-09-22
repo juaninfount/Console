@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {}
+    "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {}
   },
   "projects": {
-    "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {
+    "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
+        "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
         "projectName": "Algorithms",
-        "projectPath": "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
+        "projectPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
         "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-        "outputPath": "d:\\Source\\dotnetcore\\Console\\Algorithms\\obj\\",
+        "outputPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

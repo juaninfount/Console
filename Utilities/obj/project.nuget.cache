@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KEh3foL38wT3/J+E17bOmgK3LTkQlmqG6uo/3oWllhVJLoTbSl0jAti9Tv8z/5AKdu9A4Fonfa3EAm0X8+NCPA==",
+  "dgSpecHash": "MZblGQuH0GqVx0ulHcdM7LZykjGMHtGHXywnNPZ+5075HiySZz393OgwPTp1ZUurojFHo8u3MlL+mlj2vqEnlQ==",
   "success": true,
-  "projectFilePath": "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
+  "projectFilePath": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jnieto\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

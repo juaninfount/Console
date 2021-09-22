@@ -27,7 +27,7 @@ namespace Net50
             Clase clase2 = new() { Name = "Héctor" };
             Person registro  = new("Héctor");
             Person registro2 = new("Héctor");
-
+                            
             // comparacion de referencias de objeto
             Console.WriteLine(clase.Equals(clase2));
 
@@ -38,9 +38,10 @@ namespace Net50
     }
 
     internal class Clase 
-    {
+    {        
         public string Name { get; set; }
     }
 
+    /////
     internal record Person(string Name);    
 }

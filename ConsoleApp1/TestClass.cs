@@ -36,7 +36,7 @@ namespace ConsoleApp1
             Console.ReadLine();   
         }
 
-        public static void TestConsoleService()        
+        public static void TestConsoleService()                
         {
               Util utilities = new Util();
 
@@ -64,6 +64,62 @@ namespace ConsoleApp1
                 $"{item.Author.PadRight(15, ' ')} {item.Price}");
             }
             Console.Read();
+        }
+    
+        public static void TestRecord()
+        {
+            var obj = new Record();
+            obj.TestMethod1();
+            obj.TestMethod2();
+        }   
+
+        public static void DSA()
+        {
+            int[] newarray = new int[10]{34,0,56,11,22,3445,6677,12,1,-2};
+            var filteredarray = Array.FindAll(newarray, x=>x != 0);
+            
+            Console.WriteLine(string.Format("String original: {0}", IterateArray(newarray)));
+            Console.WriteLine(string.Format("String filtrado: {0}", IterateArray(filteredarray)));
+        }
+
+        private static string IterateArray(int[] items)
+        {
+            string string_array = "[";
+            for(var i=0; i<items.Length; i++)
+            {
+                if(i == 0)
+                    string_array += Convert.ToString(items[i]);
+                else
+                    string_array += " " + Convert.ToString(items[i]);
+            }
+            string_array += "]";
+
+            return string_array;
+        }
+
+        public static void TestDelegates()
+        {            
+            /*
+            var customdelegate  = new Delegates.ResultToString<double,double>(Delegates.OperationAddition);
+            var customdelegate2 = new Delegates.ResultToString<string,string>(Delegates.Concatenation);
+
+            result = customdelegate(12,23);
+            Console.WriteLine("Resultado de operacion adición (1): " + result);
+
+            var result = customdelegate(12,23.4);
+            Console.WriteLine("Resultado de operación adición (2): " + result);
+            
+            result = customdelegate(134545698281232,2837828732249841);
+            Console.WriteLine("Resultado de operacion adición (3): " + result);
+
+            result = customdelegate2("AC","BD");
+            Console.WriteLine("Resultado de concatenación (4): " + result);
+            */
+            
+            Console.WriteLine($"Resultado de operacion adición (1): {Delegates.Task1(12,23)}");
+            Console.WriteLine($"Resultado de operación adición (2): {Delegates.Task2(12.0,23.4)}");
+            Console.WriteLine($"Resultado de operación adición (3): {Delegates.Task3(134545698281232,2837828732249841)}");            
+            Console.WriteLine($"Resultado de concatenación     (4): {Delegates.Task4("AC","BD")}");
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {}
+    "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {
+    "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
+        "projectPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-        "outputPath": "d:\\Source\\dotnetcore\\Console\\Utilities\\obj\\",
+        "outputPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

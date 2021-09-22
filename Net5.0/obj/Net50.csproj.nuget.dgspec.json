@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {}
+    "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {}
   },
   "projects": {
-    "d:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {
+    "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj",
+        "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj",
         "projectName": "Net50",
-        "projectPath": "d:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj",
+        "projectPath": "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj",
         "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-        "outputPath": "d:\\Source\\dotnetcore\\Console\\Net5.0\\obj\\",
+        "outputPath": "D:\\Source\\dotnetcore\\Console\\Net5.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

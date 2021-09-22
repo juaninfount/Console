@@ -109,11 +109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Source\\dotnetcore\\Console\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "d:\\Source\\dotnetcore\\Console\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "D:\\Source\\dotnetcore\\Console\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-      "outputPath": "d:\\Source\\dotnetcore\\Console\\ConsoleApp1\\obj\\",
+      "outputPath": "D:\\Source\\dotnetcore\\Console\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -133,14 +133,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {
-              "projectPath": "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj"
+            "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj"
             },
-            "d:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {
-              "projectPath": "d:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj"
+            "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {
+              "projectPath": "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj"
             },
-            "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {
-              "projectPath": "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj"
+            "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj"
             }
           }
         }
