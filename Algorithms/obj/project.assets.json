@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
+      "projectUniqueName": "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
+      "projectPath": "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\obj\\",
+      "outputPath": "d:\\Source\\dotnetcore\\Console\\Algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
