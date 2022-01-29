@@ -7,6 +7,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //Algorithms.KeyPair.TestCase2();
+            
+            /*
+            */
             //ConsoleApp1.TestClass.TestConsoleService();
             
             // testing queue
@@ -25,9 +28,12 @@ namespace ConsoleApp1
 
             // DELEGADOS
             //ConsoleApp1.TestClass.TestDelegates();
+            //ConsoleApp1.TestClass.TestDelegates2();
 
-            ConsoleApp1.TestClass.TestLinqSamples();
+            //ConsoleApp1.TestClass.TestLinqSamples();
             
+            // crypto - rfc2898
+            ConsoleApp1.TestClass.Rfc2898Test(args);
         }
     }
 }

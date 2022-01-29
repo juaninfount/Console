@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "Utilities"
+		},
+		{
+			"path": "Crypto"
 		}
 	],
 	"settings": {}

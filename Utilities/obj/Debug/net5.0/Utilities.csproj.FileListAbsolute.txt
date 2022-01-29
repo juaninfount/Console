@@ -14,7 +14,6 @@ D:\Source\dotnetcore\Console\Utilities\bin\Debug\net5.0\Utilities.deps.json
 D:\Source\dotnetcore\Console\Utilities\bin\Debug\net5.0\Utilities.dll
 D:\Source\dotnetcore\Console\Utilities\bin\Debug\net5.0\ref\Utilities.dll
 D:\Source\dotnetcore\Console\Utilities\bin\Debug\net5.0\Utilities.pdb
-D:\Source\dotnetcore\Console\Utilities\obj\Debug\net5.0\Utilities.csprojAssemblyReference.cache
 D:\Source\dotnetcore\Console\Utilities\obj\Debug\net5.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
 D:\Source\dotnetcore\Console\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfoInputs.cache
 D:\Source\dotnetcore\Console\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfo.cs

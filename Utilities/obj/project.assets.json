@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
       "projectName": "Utilities",
-      "projectPath": "d:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
+      "projectPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj",
       "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-      "outputPath": "d:\\Source\\dotnetcore\\Console\\Utilities\\obj\\",
+      "outputPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,7 +114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

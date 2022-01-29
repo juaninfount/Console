@@ -60,6 +60,7 @@ namespace Net50
         #region Delegates Section
 
         public delegate string ResultToString<T,M>(T t, M m);
+        public delegate int Multiplicator<T>(T t);
             
         #endregion     
         

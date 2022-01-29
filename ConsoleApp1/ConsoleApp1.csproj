@@ -10,6 +10,7 @@
     <ProjectReference Include="..\Algorithms\Algorithms.csproj" />
     <ProjectReference Include="..\Net5.0\Net50.csproj" />
     <ProjectReference Include="..\Utilities\Utilities.csproj" />    
+    <ProjectReference Include="..\Crypto\Crypto.csproj" />    
   </ItemGroup>
 
   <ItemGroup>

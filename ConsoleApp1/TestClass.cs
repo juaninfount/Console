@@ -1,7 +1,9 @@
 using Utilities;
 using Algorithms;
 using Net50;
+using System.Collections;
 using ConsoleApp1.DataObjects;
+using Crypto;
 using System;
 
 namespace ConsoleApp1
@@ -11,7 +13,7 @@ namespace ConsoleApp1
 
         #region "Algorithms"
 
-               public static void TestQueue()
+        public static void TestQueue()
         {
             Queue<int> queue = new Queue<int>(5);
             Console.WriteLine("Testing queue - colas");
@@ -76,14 +78,14 @@ namespace ConsoleApp1
 
         public static void TestDelegates()
         {            
-            /*
+            
             var customdelegate  = new Delegates.ResultToString<double,double>(Delegates.OperationAddition);
             var customdelegate2 = new Delegates.ResultToString<string,string>(Delegates.Concatenation);
 
-            result = customdelegate(12,23);
+            var result = customdelegate(12,23);
             Console.WriteLine("Resultado de operacion adición (1): " + result);
 
-            var result = customdelegate(12,23.4);
+            result = customdelegate(12,23.4);
             Console.WriteLine("Resultado de operación adición (2): " + result);
             
             result = customdelegate(134545698281232,2837828732249841);
@@ -91,12 +93,18 @@ namespace ConsoleApp1
 
             result = customdelegate2("AC","BD");
             Console.WriteLine("Resultado de concatenación (4): " + result);
-            */
+            
             
             Console.WriteLine($"Resultado de operacion adición (1): {Delegates.Task1(12,23)}");
             Console.WriteLine($"Resultado de operación adición (2): {Delegates.Task2(12.0,23.4)}");
             Console.WriteLine($"Resultado de operación adición (3): {Delegates.Task3(134545698281232,2837828732249841)}");            
             Console.WriteLine($"Resultado de concatenación     (4): {Delegates.Task4("AC","BD")}");
+        }
+            
+        public static void TestDelegates2()
+        {
+            var list = new int[6] { 2,3,4,5,6,7 };
+            
         }
 
         #endregion     
@@ -143,6 +151,16 @@ namespace ConsoleApp1
                 $"{item.Author.PadRight(15, ' ')} {item.Price}");
             }
             Console.Read();
+        }
+
+        #endregion    
+
+        #region "Crypto"
+
+        public static void Rfc2898Test(string[] args)
+        {
+           Crypto.RFC2898.Main(args);
+           Console.Read();
         }
 
         #endregion    

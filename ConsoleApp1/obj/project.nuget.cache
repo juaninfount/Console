@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ieGDzkte7W1QzDz+iQvhnoD88JPKpTnAa7KNH/UWNlI3lktosSfYiGTItGcEgN2K5X5seyMFp67DHkrJOJHASA==",
+  "dgSpecHash": "+qCsW78ES3N7AKikWcZzRhJKLX5gr9awC8khFy0y/lrtd0nHJfWmrESwzGh4YdKoDg8D8PErIC3UvR/R0b3qnQ==",
   "success": true,
   "projectFilePath": "D:\\Source\\dotnetcore\\Console\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jnieto\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\jnieto\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jnieto\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
+      "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "d:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
+      "projectPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-      "outputPath": "d:\\Source\\dotnetcore\\Console\\Algorithms\\obj\\",
+      "outputPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

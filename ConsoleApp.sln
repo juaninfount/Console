@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1.csproj", "{DCB8561A-5B06-4A16-BBAD-37C599F9881F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", ".\ConsoleApp1\ConsoleApp1.csproj", "{DCB8561A-5B06-4A16-BBAD-37C599F9881F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "..\Utilities\Utilities.csproj", "{8B91261C-87EA-40A4-A6B6-F2C3C5367E7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", ".\Utilities\Utilities.csproj", "{8B91261C-87EA-40A4-A6B6-F2C3C5367E7B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "..\Algorithms\Algorithms.csproj", "{057B41F9-8842-4745-897B-C2854FB8CE38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", ".\Algorithms\Algorithms.csproj", "{057B41F9-8842-4745-897B-C2854FB8CE38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net50", "..\Net5.0\Net50.csproj", "{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net50", ".\Net5.0\Net50.csproj", "{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypto", "Crypto\Crypto.csproj", "{F6B5EAB3-D7F3-4679-927A-2A53A77A3912}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B5EAB3-D7F3-4679-927A-2A53A77A3912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B5EAB3-D7F3-4679-927A-2A53A77A3912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B5EAB3-D7F3-4679-927A-2A53A77A3912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B5EAB3-D7F3-4679-927A-2A53A77A3912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

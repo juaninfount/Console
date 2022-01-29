@@ -21,4 +21,3 @@ D:\Source\dotnetcore\Console\Algorithms\obj\Debug\net5.0\Algorithms.csproj.CoreC
 D:\Source\dotnetcore\Console\Algorithms\obj\Debug\net5.0\Algorithms.dll
 D:\Source\dotnetcore\Console\Algorithms\obj\Debug\net5.0\ref\Algorithms.dll
 D:\Source\dotnetcore\Console\Algorithms\obj\Debug\net5.0\Algorithms.pdb
-D:\Source\dotnetcore\Console\Algorithms\obj\Debug\net5.0\Algorithms.csprojAssemblyReference.cache

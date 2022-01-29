@@ -21,6 +21,16 @@
           "bin/placeholder/Algorithms.dll": {}
         }
       },
+      "Crypto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Crypto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Crypto.dll": {}
+        }
+      },
       "Net50/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -83,6 +93,11 @@
       "path": "../Algorithms/Algorithms.csproj",
       "msbuildProject": "../Algorithms/Algorithms.csproj"
     },
+    "Crypto/1.0.0": {
+      "type": "project",
+      "path": "../Crypto/Crypto.csproj",
+      "msbuildProject": "../Crypto/Crypto.csproj"
+    },
     "Net50/1.0.0": {
       "type": "project",
       "path": "../Net5.0/Net50.csproj",
@@ -97,6 +112,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Algorithms >= 1.0.0",
+      "Crypto >= 1.0.0",
       "Net50 >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
       "Utilities >= 1.0.0"
@@ -136,6 +152,9 @@
             "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {
               "projectPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj"
             },
+            "D:\\Source\\dotnetcore\\Console\\Crypto\\Crypto.csproj": {
+              "projectPath": "D:\\Source\\dotnetcore\\Console\\Crypto\\Crypto.csproj"
+            },
             "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {
               "projectPath": "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj"
             },
@@ -170,12 +189,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
