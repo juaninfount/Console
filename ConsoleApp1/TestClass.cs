@@ -78,27 +78,35 @@ namespace ConsoleApp1
 
         public static void TestDelegates()
         {            
-            
-            var customdelegate  = new Delegates.ResultToString<double,double>(Delegates.OperationAddition);
-            var customdelegate2 = new Delegates.ResultToString<string,string>(Delegates.Concatenation);
-
+            // llamadas o delegados
+            var customdelegate  = new Delegates.ResultToString<double,double>(Delegates.Task2);
+            var customdelegate2 = new Delegates.ResultToString<string,string>(Delegates.Task4);
+            ///  uso de sobrecarga de funciones: TaskMultiplication
+            var customdelegate3 = new Delegates.Multiplicator<long,long>(Delegates.TaskMultiplication);
+            var customdelegate4 = new Delegates.Multiplicator<int,int>(Delegates.TaskMultiplication);
+            var customdelegate5 = new Delegates.Multiplicator<double,double>(Delegates.TaskMultiplication);
+ 
             var result = customdelegate(12,23);
-            Console.WriteLine("Resultado de operacion adición (1): " + result);
+            Console.WriteLine("Resultado de operacion adición int (1): " + result);
 
-            result = customdelegate(12,23.4);
-            Console.WriteLine("Resultado de operación adición (2): " + result);
+            result = customdelegate(12.0, 23.4);
+            Console.WriteLine("Resultado de operación adición double (1): " + result);
             
             result = customdelegate(134545698281232,2837828732249841);
-            Console.WriteLine("Resultado de operacion adición (3): " + result);
+            Console.WriteLine("Resultado de operacion adición long (1): " + result);
 
             result = customdelegate2("AC","BD");
             Console.WriteLine("Resultado de concatenación (4): " + result);
-            
-            
+
             Console.WriteLine($"Resultado de operacion adición (1): {Delegates.Task1(12,23)}");
             Console.WriteLine($"Resultado de operación adición (2): {Delegates.Task2(12.0,23.4)}");
             Console.WriteLine($"Resultado de operación adición (3): {Delegates.Task3(134545698281232,2837828732249841)}");            
             Console.WriteLine($"Resultado de concatenación     (4): {Delegates.Task4("AC","BD")}");
+
+            // llamada a sobrecarga de metodos 
+            Console.WriteLine($"Resultado de multiplicación(long) (5): {customdelegate3(13124242, 43346546)}.");
+            Console.WriteLine($"Resultado de multiplicación(int) (5): {customdelegate4(132, 465)}.");
+            Console.WriteLine($"Resultado de multiplicación(double) (5): {customdelegate5(132.42, 4654.26)}.");                                   
         }
             
         public static void TestDelegates2()
@@ -116,10 +124,10 @@ namespace ConsoleApp1
             LinqSamples l = new LinqSamples();
             
             Console.WriteLine("JOIN OPERATIONS BETWEEN TWO COLLECTIONS");
-            l.TestJoin();
+            l.joinOperations();
 
             Console.WriteLine("MULTIPLE ORDERING CRITERIA ");
-            l.TestJoin2();
+            l.multipleOrderingCriteria();
             Console.Read();          
         }
 
@@ -164,5 +172,6 @@ namespace ConsoleApp1
         }
 
         #endregion    
+               
     }
 }

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", ".\Utilities\Ut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", ".\Algorithms\Algorithms.csproj", "{057B41F9-8842-4745-897B-C2854FB8CE38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net50", ".\Net5.0\Net50.csproj", "{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net50", ".\Net50\Net50.csproj", "{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypto", "Crypto\Crypto.csproj", "{F6B5EAB3-D7F3-4679-927A-2A53A77A3912}"
 EndProject

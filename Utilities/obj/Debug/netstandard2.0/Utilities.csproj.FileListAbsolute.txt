@@ -1,9 +1,0 @@
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\bin\Debug\netstandard2.0\Utilities.deps.json
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\bin\Debug\netstandard2.0\Utilities.dll
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\bin\Debug\netstandard2.0\Utilities.pdb
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\obj\Debug\netstandard2.0\Utilities.AssemblyInfoInputs.cache
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\obj\Debug\netstandard2.0\Utilities.AssemblyInfo.cs
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\obj\Debug\netstandard2.0\Utilities.dll
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\obj\Debug\netstandard2.0\Utilities.pdb
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\obj\Debug\netstandard2.0\Utilities.csprojAssemblyReference.cache
-D:\Source\dotnetcore\dotnetcore_DI\Utilities\obj\Debug\netstandard2.0\Utilities.csproj.CoreCompileInputs.cache

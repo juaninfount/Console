@@ -1,9 +1,0 @@
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\bin\Debug\netstandard2.0\Algorithms.deps.json
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\bin\Debug\netstandard2.0\Algorithms.dll
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\bin\Debug\netstandard2.0\Algorithms.pdb
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\obj\Debug\netstandard2.0\Algorithms.csprojAssemblyReference.cache
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\obj\Debug\netstandard2.0\Algorithms.AssemblyInfoInputs.cache
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\obj\Debug\netstandard2.0\Algorithms.AssemblyInfo.cs
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\obj\Debug\netstandard2.0\Algorithms.dll
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\obj\Debug\netstandard2.0\Algorithms.pdb
-D:\Source\dotnetcore\dotnetcore_DI\Algorithms\obj\Debug\netstandard2.0\Algorithms.csproj.CoreCompileInputs.cache

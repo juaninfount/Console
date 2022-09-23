@@ -26,7 +26,7 @@ namespace Utilities
         public TimeSpan Duration { get; set; }
     }
 
-    #endregion  
+    #endregion  TestJoin
 
     
     public class LinqSamples
@@ -73,7 +73,7 @@ namespace Utilities
         ///
         /// JOIN OPERATIONS BETWEEN TWO COLLECTIONS
         ///
-        public void TestJoin()
+        public void joinOperations()
         {
             var beers = new List<(int IdBrand, string Name)>
             {
@@ -112,7 +112,7 @@ namespace Utilities
         }
         
         // MULTIPLE ORDERING CRITERIA 
-        public void TestJoin2()
+        public void multipleOrderingCriteria()
         {            
             CourseChoice[] choices =
             {

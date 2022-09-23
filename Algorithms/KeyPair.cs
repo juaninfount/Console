@@ -27,15 +27,15 @@ namespace Algorithms
 
         public static void TestCase2()
         {            
-            int[] A = new int[10] { 25, 21, 6, 5, 14, 11, -2, 3, 10, 9 };
-            string ArrayList = string.Join(",", A);            
+            int[] array = new int[10] { 25, 21, 6, 5, 14, 11, -2, 3, 10, 9 };
+            string ArrayList = string.Join(",", array);            
             int sum = 23;
 
             Console.WriteLine("Algoritmo KeyPair");
             Console.WriteLine("Número de casos: {0}", 1);
             Console.WriteLine("Array: {0}", ArrayList);
 
-            string results = Solve2(A, sum);
+            string results = Solve2(array, sum);
             Console.WriteLine();
             Console.WriteLine(results);
             Console.ReadLine();

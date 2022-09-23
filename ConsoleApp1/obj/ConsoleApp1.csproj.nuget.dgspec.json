@@ -14,10 +14,12 @@
         "outputPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\jnieto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,10 +73,12 @@
         "outputPath": "D:\\Source\\dotnetcore\\Console\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\jnieto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +98,8 @@
               "D:\\Source\\dotnetcore\\Console\\Crypto\\Crypto.csproj": {
                 "projectPath": "D:\\Source\\dotnetcore\\Console\\Crypto\\Crypto.csproj"
               },
-              "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {
-                "projectPath": "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj"
+              "D:\\Source\\dotnetcore\\Console\\Net50\\Net50.csproj": {
+                "projectPath": "D:\\Source\\dotnetcore\\Console\\Net50\\Net50.csproj"
               },
               "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {
                 "projectPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj"
@@ -153,10 +157,12 @@
         "outputPath": "D:\\Source\\dotnetcore\\Console\\Crypto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\jnieto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,20 +206,22 @@
         }
       }
     },
-    "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj": {
+    "D:\\Source\\dotnetcore\\Console\\Net50\\Net50.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj",
+        "projectUniqueName": "D:\\Source\\dotnetcore\\Console\\Net50\\Net50.csproj",
         "projectName": "Net50",
-        "projectPath": "D:\\Source\\dotnetcore\\Console\\Net5.0\\Net50.csproj",
+        "projectPath": "D:\\Source\\dotnetcore\\Console\\Net50\\Net50.csproj",
         "packagesPath": "C:\\Users\\jnieto\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\dotnetcore\\Console\\Net5.0\\obj\\",
+        "outputPath": "D:\\Source\\dotnetcore\\Console\\Net50\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\jnieto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,10 +275,12 @@
         "outputPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\jnieto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

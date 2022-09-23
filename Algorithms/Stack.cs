@@ -61,7 +61,7 @@ namespace Algorithms
          public void Print() 
         {
             string args = "[";
-            if (this.stackArray != null && this.stackArray.Length > 0) 
+            if (this.stackArray != null && this.stackArray.Length > 0)
             {
                 for (int i = 0; i < this.stackArray.Length; i++)
                 {
