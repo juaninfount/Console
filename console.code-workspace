@@ -10,6 +10,9 @@
 			"path": "Net50"
 		},
 		{
+			"path": "Net60"
+		},
+		{
 			"path": "Utilities"
 		},
 		{

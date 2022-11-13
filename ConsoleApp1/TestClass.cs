@@ -1,6 +1,7 @@
 using Utilities;
 using Algorithms;
 using Net50;
+using Net60;
 using System.Collections;
 using ConsoleApp1.DataObjects;
 using Crypto;
@@ -122,13 +123,17 @@ namespace ConsoleApp1
         public static void TestLinqSamples()
         {
             LinqSamples l = new LinqSamples();
-            
+            /*
             Console.WriteLine("JOIN OPERATIONS BETWEEN TWO COLLECTIONS");
             l.joinOperations();
 
             Console.WriteLine("MULTIPLE ORDERING CRITERIA ");
             l.multipleOrderingCriteria();
-            Console.Read();          
+            */
+
+            Console.WriteLine("GROUPING BY COLUMNS");
+            l.groupByCriteria();
+            Console.Read();
         }
 
         public static void TestConsoleService()                
@@ -171,7 +176,17 @@ namespace ConsoleApp1
            Console.Read();
         }
 
-        #endregion    
-               
+        #endregion
+
+        #region  "Net6.0"
+
+        public static void TestRecord2()
+        {
+            var obj = new RecordTypes();
+            obj.testRecordTypes();
+        }
+
+        #endregion
+
     }
 }

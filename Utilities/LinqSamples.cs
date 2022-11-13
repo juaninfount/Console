@@ -24,6 +24,13 @@ namespace Utilities
         public int Number { get; set; }
         public DateTime PublicationDate { get; set; }
         public TimeSpan Duration { get; set; }
+
+        public override string ToString()
+        {
+            return  String.Format($"Course => Title: {this.Title}, Category: {this.Category}, " +
+                                  $"Number: {this.Number}, PublicationDate: {this.PublicationDate.ToShortDateString()}, " + 
+                                  $"Duration: {this.Duration.ToString()}");
+        }
     }
 
     #endregion  TestJoin
@@ -44,6 +51,12 @@ namespace Utilities
             Title = "Squaring the Circle",
             Category = "MAT", Number = 102, Duration = TimeSpan.FromHours(7),
             PublicationDate = new DateTime(2009, 4, 1)
+            },
+             new Course
+            {
+            Title = "2013 Book Modelling Computing Systems",
+            Category = "CSE", Number = 112, Duration = TimeSpan.FromHours(9),
+            PublicationDate = new DateTime(2013, 1, 09)
             },
             new Course
             {
@@ -124,15 +137,31 @@ namespace Utilities
             };
 
             
-            var q = from course in LinqSamples.Catalog
+            var result = from course in LinqSamples.Catalog
                     orderby course.PublicationDate ascending, course.Duration descending
                     select course;
 
-            foreach(var item in q)
+            foreach(var item in result)
             {
                 Console.WriteLine($" {item.PublicationDate.ToShortDateString()} {item.Title} ");
             }
             
+        }
+
+        public void groupByCriteria(){
+            var result = (from course in Catalog
+                        group course by new { course.Category } into gc 
+                        select new 
+                        {
+                            Category = gc.Key.Category,
+                            Courses = gc.ToList()
+                        });
+
+             foreach(var item in result)
+            {
+                string courses = string.Join(", " ,(from c in Catalog where c.Category == item.Category select c.Title));
+                Console.WriteLine($"Category: {item.Category}, Courses: " + courses);
+            }
         }
     }
 }

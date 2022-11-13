@@ -27,13 +27,15 @@ namespace ConsoleApp1
             //ConsoleApp1.TestClass.DSA();
 
             // DELEGADOS
-            ConsoleApp1.TestClass.TestDelegates();                        
+            //ConsoleApp1.TestClass.TestDelegates();                        
             //ConsoleApp1.TestClass.TestDelegates2();
 
-            //ConsoleApp1.TestClass.TestLinqSamples();
+            ConsoleApp1.TestClass.TestLinqSamples();
             
             // crypto - rfc2898
             //ConsoleApp1.TestClass.Rfc2898Test(args);
+
+            //ConsoleApp1.TestClass.TestRecord2();
         }
     }
 }
