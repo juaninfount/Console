@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Net50
+namespace netx
 {
     public class Record
     {
@@ -39,7 +39,7 @@ namespace Net50
 
     internal class Clase 
     {        
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 
     /////

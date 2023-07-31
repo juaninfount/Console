@@ -1,4 +1,4 @@
-﻿namespace Net60;
+﻿namespace netx;
 
 
 /*
@@ -7,9 +7,11 @@ It Helps improve memory management. It also makes your code more readable and ea
 */
 public class RecordTypes
 {
-    public abstract record DegreeDays(double baseTemperature, IEnumerable<DailyTemperature> tempRecords);
+    public abstract record DegreeDays(double baseTemperature, 
+                                      IEnumerable<DailyTemperature> tempRecords);
 
-    public sealed record HeatingDegreeDays(double baseTemperature, IEnumerable<DailyTemperature> tempRecords)
+    public sealed record HeatingDegreeDays(double baseTemperature, 
+                                IEnumerable<DailyTemperature> tempRecords)
     : DegreeDays(baseTemperature, tempRecords)
     {
         public double DegreeDays = tempRecords
@@ -17,7 +19,8 @@ public class RecordTypes
                     .Sum(s => baseTemperature - s.Mean);
     }
 
-    public sealed record CoolingDegreeDays(double baseTemperature, IEnumerable<DailyTemperature> tempRecords)
+    public sealed record CoolingDegreeDays(double baseTemperature, 
+                                        IEnumerable<DailyTemperature> tempRecords)
         : DegreeDays(baseTemperature, tempRecords)
     {
         public double DegreeDays = tempRecords

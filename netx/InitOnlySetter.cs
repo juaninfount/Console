@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace Net50 
+namespace netx 
 {
     internal class Customer
     {
         public int CustomerId { get; init; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 
     public class InitOnlySetter

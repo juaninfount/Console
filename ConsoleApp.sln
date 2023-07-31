@@ -9,11 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", ".\Utilities\Ut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", ".\Algorithms\Algorithms.csproj", "{057B41F9-8842-4745-897B-C2854FB8CE38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net50", ".\Net50\Net50.csproj", "{E64ED2CC-DBD9-4A7A-BA1D-290BD0860219}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypto", "Crypto\Crypto.csproj", "{F6B5EAB3-D7F3-4679-927A-2A53A77A3912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net60", ".\Net60\Net60.csproj", "{6BFDE422-31E5-4FA2-ADCA-290DD6CD9900}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netx", "netx\netx.csproj", "{E5323CBB-CAD0-4CA8-AE0C-1954B59C8769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +43,14 @@ Global
 		{6BFDE422-31E5-4FA2-ADCA-290DD6CD9900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BFDE422-31E5-4FA2-ADCA-290DD6CD9900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BFDE422-31E5-4FA2-ADCA-290DD6CD9900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A735C85E-EF8E-4918-B1BC-23A41A124B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A735C85E-EF8E-4918-B1BC-23A41A124B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A735C85E-EF8E-4918-B1BC-23A41A124B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A735C85E-EF8E-4918-B1BC-23A41A124B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5323CBB-CAD0-4CA8-AE0C-1954B59C8769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5323CBB-CAD0-4CA8-AE0C-1954B59C8769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5323CBB-CAD0-4CA8-AE0C-1954B59C8769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5323CBB-CAD0-4CA8-AE0C-1954B59C8769}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

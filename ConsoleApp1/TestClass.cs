@@ -1,15 +1,16 @@
 using Utilities;
 using Algorithms;
-using Net50;
-using Net60;
+// using Net50;
+// using Net60;
 using System.Collections;
 using ConsoleApp1.DataObjects;
 using Crypto;
 using System;
+using netx;
 
 namespace ConsoleApp1
 {
-    public static class TestClass
+    internal static class TestClass
     {               
 
         #region "Algorithms"
@@ -184,6 +185,19 @@ namespace ConsoleApp1
         {
             var obj = new RecordTypes();
             obj.testRecordTypes();
+        }
+
+        public static void TestMatchPattern()
+        {
+            netx.MatchPattern.matchInSwitch();
+        }
+
+        public static void TestSwitchExpression(){
+            netx.MatchPattern.switchExpression();
+        }
+
+        public static void TestPatternMatchingCollections(){
+            netx.MatchPattern.patternMatchingCollections();
         }
 
         #endregion

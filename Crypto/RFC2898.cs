@@ -31,7 +31,8 @@ namespace Crypto
                 string pwd1 = args[0];
                 // Create a byte array to hold the random value.
                 byte[] salt1 = new byte[8];
-                using (RNGCryptoServiceProvider rngCsp = new RNGCryptoServiceProvider())
+                //using (RNGCryptoServiceProvider rngCsp = new RNGCryptoServiceProvider())
+                using (var rngCsp = RandomNumberGenerator.Create())
                 {
                     // Fill the array with a random value.
                     rngCsp.GetBytes(salt1);

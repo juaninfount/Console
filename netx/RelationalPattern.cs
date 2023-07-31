@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Net50
+namespace netx
 {
     public enum LifeStage 
     {

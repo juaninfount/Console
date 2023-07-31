@@ -1,19 +1,23 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Newtonsoft.Json/12.0.3": {
+    "net7.0": {
+      "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Algorithms/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/Algorithms.dll": {}
         },
@@ -23,7 +27,7 @@
       },
       "Crypto/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/Crypto.dll": {}
         },
@@ -31,31 +35,21 @@
           "bin/placeholder/Crypto.dll": {}
         }
       },
-      "Net50/1.0.0": {
+      "netx/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Net50.dll": {}
+          "bin/placeholder/netx.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Net50.dll": {}
-        }
-      },
-      "Net60/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Net60.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Net60.dll": {}
+          "bin/placeholder/netx.dll": {}
         }
       },
       "Utilities/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Utilities.dll": {}
@@ -67,14 +61,15 @@
     }
   },
   "libraries": {
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.3",
+      "path": "newtonsoft.json/13.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -83,17 +78,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -108,15 +101,10 @@
       "path": "../Crypto/Crypto.csproj",
       "msbuildProject": "../Crypto/Crypto.csproj"
     },
-    "Net50/1.0.0": {
+    "netx/1.0.0": {
       "type": "project",
-      "path": "../Net50/Net50.csproj",
-      "msbuildProject": "../Net50/Net50.csproj"
-    },
-    "Net60/1.0.0": {
-      "type": "project",
-      "path": "../Net60/Net60.csproj",
-      "msbuildProject": "../Net60/Net60.csproj"
+      "path": "../netx/netx.csproj",
+      "msbuildProject": "../netx/netx.csproj"
     },
     "Utilities/1.0.0": {
       "type": "project",
@@ -125,17 +113,17 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0": [
       "Algorithms >= 1.0.0",
       "Crypto >= 1.0.0",
-      "Net50 >= 1.0.0",
-      "Net60 >= 1.0.0",
-      "Newtonsoft.Json >= 12.0.3",
-      "Utilities >= 1.0.0"
+      "Newtonsoft.Json >= 13.0.3",
+      "Utilities >= 1.0.0",
+      "netx >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\": {}
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -146,18 +134,23 @@
       "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
       "outputPath": "D:\\Source\\dotnetcore\\Console\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
             "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj": {
               "projectPath": "D:\\Source\\dotnetcore\\Console\\Algorithms\\Algorithms.csproj"
@@ -165,11 +158,8 @@
             "D:\\Source\\dotnetcore\\Console\\Crypto\\Crypto.csproj": {
               "projectPath": "D:\\Source\\dotnetcore\\Console\\Crypto\\Crypto.csproj"
             },
-            "D:\\Source\\dotnetcore\\Console\\Net50\\Net50.csproj": {
-              "projectPath": "D:\\Source\\dotnetcore\\Console\\Net50\\Net50.csproj"
-            },
-            "D:\\Source\\dotnetcore\\Console\\Net60\\Net60.csproj": {
-              "projectPath": "D:\\Source\\dotnetcore\\Console\\Net60\\Net60.csproj"
+            "D:\\Source\\dotnetcore\\Console\\netx\\netx.csproj": {
+              "projectPath": "D:\\Source\\dotnetcore\\Console\\netx\\netx.csproj"
             },
             "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj": {
               "projectPath": "D:\\Source\\dotnetcore\\Console\\Utilities\\Utilities.csproj"
@@ -184,12 +174,12 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[12.0.3, )"
+            "version": "[13.0.3, )"
           }
         },
         "imports": [
@@ -198,7 +188,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -207,7 +198,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

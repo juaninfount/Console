@@ -30,12 +30,17 @@ namespace ConsoleApp1
             //ConsoleApp1.TestClass.TestDelegates();                        
             //ConsoleApp1.TestClass.TestDelegates2();
 
-            ConsoleApp1.TestClass.TestLinqSamples();
+            // Linq
+            //ConsoleApp1.TestClass.TestLinqSamples();
             
             // crypto - rfc2898
             //ConsoleApp1.TestClass.Rfc2898Test(args);
 
             //ConsoleApp1.TestClass.TestRecord2();
+
+            //ConsoleApp1.TestClass.TestSwitchExpression();
+
+            ConsoleApp1.TestClass.TestPatternMatchingCollections();
         }
     }
 }

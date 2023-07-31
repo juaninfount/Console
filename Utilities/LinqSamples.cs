@@ -33,9 +33,8 @@ namespace Utilities
         }
     }
 
-    #endregion  TestJoin
+    #endregion
 
-    
     public class LinqSamples
     {
         public static readonly Course[] Catalog =
