@@ -27,7 +27,7 @@ namespace ConsoleApp1
             //ConsoleApp1.TestClass.DSA();
 
             // DELEGADOS
-            //ConsoleApp1.TestClass.TestDelegates();                        
+            ConsoleApp1.TestClass.TestDelegates();                        
             //ConsoleApp1.TestClass.TestDelegates2();
 
             // Linq
@@ -40,7 +40,9 @@ namespace ConsoleApp1
 
             //ConsoleApp1.TestClass.TestSwitchExpression();
 
-            ConsoleApp1.TestClass.TestPatternMatchingCollections();
+            //ConsoleApp1.TestClass.TestPatternMatchingCollections();
+            //ConsoleApp1.TestClass.TestCatchingWithFilter();
+
         }
     }
 }
